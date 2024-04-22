@@ -2,20 +2,21 @@ import Base from "@layouts/Baseof";
 import Circle from "@layouts/components/Circle";
 import Cta from "@layouts/components/Cta";
 import ImageFallback from "@layouts/components/ImageFallback";
-import VideoPopup from "@layouts/components/VideoPopup";
+// import VideoPopup from "@layouts/components/VideoPopup";
 import { getListPage } from "@lib/contentParser";
 import { gsap } from "@lib/gsap";
 import { markdownify } from "@lib/utils/textConverter";
 import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { TbQuote } from "react-icons/tb";
-import { Autoplay, Pagination } from "swiper";
+// import { TbQuote } from "react-icons/tb";
+// import { Autoplay, Pagination } from "swiper";
+import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
   const paginationRef = useRef(null);
-  const testimonialPaginationRef = useRef(null);
+  // const testimonialPaginationRef = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -173,6 +174,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                       </Link>
                     </div>
                   </div>
+                  {banner.image && (
                   <div className="col-10">
                     <ImageFallback
                       className="banner-img opacity-0"
@@ -182,11 +184,11 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                       priority={true}
                       alt=""
                     />
-                  </div>
+                  </div>)}
                 </div>
               </div>
             </div>
-            <div className="row border-y border-border py-5">
+            {/* <div className="row border-y border-border py-5">
               <div className="animate from-right col-12">
                 <Swiper
                   loop={true}
@@ -219,7 +221,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                   ))}
                 </Swiper>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -230,7 +232,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
           <div className="animate">
             <p className="uppercase">{features.sub_title}</p>
             {markdownify(features.title, "h2", "mt-4 section-title")}
-            {markdownify(features.description, "p", "mt-10")}
+            {markdownify(features.description, "p", "mt-10 my-20 lg:px-20 md:px-8")}
           </div>
           <div className="animate from-right relative mt-10">
             <Swiper
@@ -248,10 +250,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               modules={[Pagination]}
               breakpoints={{
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
                 },
                 1200: {
-                  slidesPerView: 3,
+                  slidesPerView: 4,
                 },
               }}
             >
@@ -275,7 +277,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Short Into */}
-      <section className="section pt-0">
+      {/* <section className="section pt-0">
         <div className="container-xl">
           <div className="relative px-4 py-[70px]">
             <div className="text-center">
@@ -343,10 +345,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Special Features */}
-      <section className="section">
+      {/* <section className="section">
         <div className="container">
           <div className="row items-center justify-center">
             <div className="animate lg:col-6 lg:order-2">
@@ -389,10 +391,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonial */}
-      <section className="section pt-0">
+      {/* <section className="section pt-0">
         <div className="container">
           <div className="animate text-center">
             <p>{testimonial.subtitle}</p>
@@ -475,7 +477,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Cta */}
       <Cta />

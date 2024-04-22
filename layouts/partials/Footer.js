@@ -8,24 +8,24 @@ import Link from "next/link";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
-  const { email, phone, location } = config.contact_info;
+  const { email } = config.contact_info;
   return (
     <footer className="">
       <div className="container">
         <div className="row border-y border-border py-12">
-          <div className="animate md:col-6 lg:col-3">
+          <div className="animate md:col-6 lg:col-4 lg:pl-3">
             <Logo />
             {markdownify(footer_content, "p", "mt-3")}
           </div>
-          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Socials</h3>
+          <div className="animate mt-8 md:col-6 lg:text-center lg:col-4 lg:mt-0">
+            <h3 className="h5">Contacts</h3>
             <div className="mt-5">
               {email && <Link href={`mailto:${email}`}>{email}</Link>}
               {/* social icons */}
-              <Social source={social} className="social-icons mt-5" />
+              {/* <Social source={social} className="social-icons mt-5" /> */}
             </div>
           </div>
-          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
+          <div className="animate mt-8 md:col-6 lg:text-right lg:col-4 lg:mt-0 lg:pr-3">
             <h3 className="h5">Quick Links</h3>
             {/* footer menu */}
             <ul className="mt-5 leading-10">
@@ -39,17 +39,6 @@ const Footer = () => {
                   </Link>
                 </li>
               ))}
-            </ul>
-          </div>
-          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Location & Contact</h3>
-            <ul className="mt-5 leading-10">
-              <li>{markdownify(location)}</li>
-              {phone && (
-                <li>
-                  <Link href={`tel:${phone}`}>{phone}</Link>
-                </li>
-              )}
             </ul>
           </div>
         </div>

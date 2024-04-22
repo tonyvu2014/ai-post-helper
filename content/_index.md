@@ -1,9 +1,8 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
-  image: /images/banner-app.png
+  title: Quickly create engaging posts for your social media marketing channels using AI</br>
   link:
-    label: Get Premium Version
+    label: Register Now
     href: "#"
 
 ##brands
@@ -20,28 +19,19 @@ brands:
 
 #features
 features:
-  sub_title: SPECIAL FEATURES
-  title: Elements To </br> Get You Started
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  # sub_title: SPECIAL FEATURES
+  title: Amplify </br> Your Digital Marketing Impact
+  description: AI Post Helper is an AI-powered tool that empowers social media managers to generate optimized Facebook, LinkedIn and Twitter posts within minutes, all while providing a seamless and user-friendly interface that simplifies the process of connecting and managing multiple accounts.
   list:
-    - icon: 'lock' # feather icon: https://feathericons.com/
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'shield'
-      title: Secured & up-to-date
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'link'
-      title: Instant Link Sharing
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'lock'
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+    - icon: 'clock' # feather icon: https://feathericons.com/
+      title: Time Saver
+      content: Drastically reduces the time required to create engaging content to minutes. Generate polished posts for platforms like Facebook, LinkedIn, and Twitter from your websites, documents or your prompts.
+    - icon: 'sun'
+      title: Creative Flexibility 
+      content: Unlock the freedom to explore various styles and tones. Pinpoint the most captivating and engaging messages for your social media platforms. Ensure your content resonates deeply with your audience.
+    - icon: 'calendar'
+      title: Automated Updates
+      content: Seamlessly connect to all your social media accounts, including Facebook, LinkedIn, and Twitter. Enjoy hassle-free, consistent updates across your marketing channels by customizing your posting schedule.
 
 #intro
 intro:

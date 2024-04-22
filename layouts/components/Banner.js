@@ -1,9 +1,6 @@
 import { gsap } from "@lib/gsap";
 import { markdownify } from "@lib/utils/textConverter";
-import Link from "next/link";
 import { useEffect, useRef } from "react";
-import Circle from "./Circle";
-import ImageFallback from "./ImageFallback";
 
 const Banner = ({ title }) => {
   const banner = useRef(null);
@@ -66,8 +63,8 @@ const Banner = ({ title }) => {
     <div className="banner banner-single " ref={banner}>
       <div className="container-xl ">
         <div className="banner-wrapper relative text-center">
-          {markdownify(title, "h1", "mb-8 banner-regular-title opacity-0")}
-          <ul className="breadcrumb flex items-center justify-center opacity-0">
+          {markdownify(title, "h1", "banner-regular-title opacity-0")}
+          {/* <ul className="breadcrumb flex items-center justify-center opacity-0">
             <li>
               <Link className="text-primary" href="/">
                 Home
@@ -153,7 +150,7 @@ const Banner = ({ title }) => {
               height={37}
               fill={false}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

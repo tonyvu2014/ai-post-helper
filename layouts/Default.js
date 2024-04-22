@@ -8,7 +8,7 @@ const Default = ({ data }) => {
   return (
     <section className="section">
       <Banner title={title} />
-      <div className="container mt-10">
+      <div className="container">
         <div className="content">
           <MDXRemote {...mdxContent} components={shortcodes} />
         </div>

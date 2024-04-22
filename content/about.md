@@ -5,30 +5,30 @@ draft: false
 
 ## about us
 about_us:
-  subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
+  subtitle: What is AI Post Helper
+  title: Hello, We’re Here To Help Social Media Marketer
+  content: AI Post Helper harnesses the power of AI and Large Language Model to simplify the lives of social media marketers. It automates the most tedious aspects of social media management, specifically generating and updating content across various platforms.
   image: /images/about/01.jpg
 
 ## our works
 works:
-  subtitle: OUR WORKS
-  title: What We Do
+  subtitle: HOW IT WORKS
+  title: Generate social posts in 4 easy steps
   list:
-    - title: Building A New Class
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Design For Anyone
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Creative Flair Design
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Building Products
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
+    - title: Connect to your social media platforms
+      content: Login and authorize AI Post Helper to post content on your behalf. 
+    - title: Specify input by text or upload PDF/Word documents 
+      content: Instruct the AI to generate posts by providing your target audience and a description. Fine-tune the content even more by uploading your own documents in PDF or Word formats.
+    - title: Customize the results as you like
+      content: Specify the length and number of posts you'd like the AI to create. Personalize the styles and tones of the posts and modify them as you wish.
+    - title: Post or schedule for future updates
+      content: Publish the generated content to your audience instantly or according to your own schedule.
 
 ## our mission
 mission:
   subtitle: OUR MISSION
-  title: Main Vision And Mission Of Our Company
-  content: We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece .
+  title: Social Media Management Made Easy
+  content: Our mission is to empower individuals and businesses to effortlessly manage their social media footprint. We provide a seamless platform that connects to your social media accounts, allowing you to easily create and schedule engaging posts. With AI Post Helper, users can streamline their social media strategy by generating personalized content tailored to their target audience. Our goal is to simplify social media management, giving users more time to focus on what matters most.
   image: /images/about/02.jpg
 
 ## short video
