@@ -253,7 +253,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                   slidesPerView: 3,
                 },
                 1200: {
-                  slidesPerView: 4,
+                  slidesPerView: 3,
                 },
               }}
             >
