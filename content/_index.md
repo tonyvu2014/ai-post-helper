@@ -25,7 +25,7 @@ features:
   list:
     - icon: 'clock' # feather icon: https://feathericons.com/
       title: Time Saver
-      content: Drastically reduces the time required to create engaging content to minutes. Generate polished posts for platforms like Facebook, LinkedIn, and Twitter from your websites, documents or your prompts.
+      content: Drastically reduce the time needed to craft compelling content to mere minutes. Empower you to generate polished posts for platforms like Facebook, LinkedIn, and Twitter from your websites, documents, or prompts.
     - icon: 'sun'
       title: Creative Flexibility 
       content: Unlock the freedom to explore various styles and tones. Pinpoint the most captivating and engaging messages for your social media platforms. Ensure your content resonates deeply with your audience.

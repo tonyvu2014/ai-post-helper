@@ -24,8 +24,8 @@ const Contact = ({ data }) => {
           </div>
           <div className="animate lg:col-5">
             <FormfacadeEmbed
-            formFacadeURL="https://formfacade.com/include/110581543394745721401/form/1FAIpQLSf9CcdFqatlkemHaoPGgagylWADfrJGC7-IOjnTtIurg4MqSg/classic.js/?div=ff-compose"
-            onSubmitForm={() => console.log('Form submitted')}
+              formFacadeURL="https://formfacade.com/include/110581543394745721401/form/1FAIpQLSf9CcdFqatlkemHaoPGgagylWADfrJGC7-IOjnTtIurg4MqSg/classic.js/?div=ff-compose"
+              onSubmitForm={() => console.log('Form submitted')}
             />
           </div>
         </div>
