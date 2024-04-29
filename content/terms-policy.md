@@ -82,7 +82,7 @@ AI Post Helper reserves the right to modify or update these Terms at any time. I
 
 #### 10. Contact Us
 
-If you have any questions about these Terms, please contact us at info@aiposthelper.com.
+If you have any questions about these Terms, please contact us at support@aiposthelper.com.
 
 
 
